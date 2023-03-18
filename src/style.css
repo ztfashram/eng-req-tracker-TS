@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+.app {
+    height: 100%;
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
+.errMsg {
+    color: firebrick;
+    background-color: lightpink;
+    padding: 0.5rem;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #7a7f9d;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3c3f52;
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-track:hover {
+    color: #9a9fbd;
+    background: #3c3f52;
+}
